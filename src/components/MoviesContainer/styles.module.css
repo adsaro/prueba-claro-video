@@ -1,0 +1,17 @@
+.logo {
+    height: 2em;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.container {
+    margin: 2.5em;
+    min-width: 380px;
+}
+
+.search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

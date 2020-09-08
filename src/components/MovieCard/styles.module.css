@@ -1,0 +1,18 @@
+.card {
+    position: relative;
+    width: 300px;
+    display: inline-block;
+    margin: 7.5px;
+}
+.overlay {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.card:hover .overlay{
+    visibility: visible;
+}

@@ -1,0 +1,36 @@
+.title {
+    color: #ecaf2a;
+    background-color: black;
+}
+
+.title button, .title button:hover{
+    color: white;
+}
+
+.modal {
+    width: 90%!important;
+    max-width: none!important;
+    min-width: 350px!important;
+}
+
+.modal .modal-content{
+    height: 90vh;
+}
+
+@media (max-width: 768px) {
+    .image {
+      width: 100%;
+    }
+  }
+@media (min-width: 769px) {
+    .image {
+      width: 50%;
+      float: left;
+      margin: 0 1em 2em 0;
+    }
+  }
+.close{
+    position: fixed;
+    top: 1em;
+    right: 1em;
+}
