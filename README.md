@@ -14,6 +14,10 @@ Lost tests aún no son exhaustivos pero ya es relativamente fácil extenderlos p
 
 En la raíz del proyecto puedes ejecutar los siguientes scripts:
 
+### `yarn`
+
+Instala las dependencias del proyecto que permiten ejecutar el resto de los scripts. Es necesario ejecutar este comando antes de intentar ejecutar algún otro script.
+
 ### `yarn start`
 
 Compila el código y lo ejecuta.<br />
